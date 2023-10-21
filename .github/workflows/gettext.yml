@@ -2,7 +2,7 @@ name: Gettext updates
 
 on:
   push:
-    branches: [main]
+    branches: [test-gettext-flatpak]
 
 jobs:
   gettext_flatpak:
@@ -28,7 +28,7 @@ jobs:
       run: |
         git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-    - uses: elementary/actions/gettext-flatpak@main
+    - uses: ryonakano/actions/gettext-flatpak@gettext-flatpak-support-multiple-pots
       with:
         manifest-path: 'com.github.ryonakano.pinit.yml'
         repository-url: 'https://dl.flathub.org/repo/flathub.flatpakrepo'
