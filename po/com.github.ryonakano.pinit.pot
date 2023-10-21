@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ryonakano.pinit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-01 09:50+0900\n"
+"POT-Creation-Date: 2023-10-21 01:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgid "Cannot open %s: %s"
 msgstr ""
 
 #: src/CategoryChooser.vala:90
-msgid "Audio & Video"
+msgid "Sound & Video"
 msgstr ""
 
 #: src/CategoryChooser.vala:91
@@ -46,7 +46,7 @@ msgid "Video"
 msgstr ""
 
 #: src/CategoryChooser.vala:93
-msgid "Development"
+msgid "Programming"
 msgstr ""
 
 #: src/CategoryChooser.vala:94
@@ -54,7 +54,7 @@ msgid "Education"
 msgstr ""
 
 #: src/CategoryChooser.vala:95
-msgid "Game"
+msgid "Games"
 msgstr ""
 
 #: src/CategoryChooser.vala:96
@@ -62,7 +62,7 @@ msgid "Graphics"
 msgstr ""
 
 #: src/CategoryChooser.vala:97
-msgid "Network"
+msgid "Internet"
 msgstr ""
 
 #: src/CategoryChooser.vala:98
@@ -77,12 +77,12 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: src/CategoryChooser.vala:101 src/Views/FilesView.vala:31
-msgid "System"
+#: src/CategoryChooser.vala:101
+msgid "System Tools"
 msgstr ""
 
 #: src/CategoryChooser.vala:102
-msgid "Utility"
+msgid "Accessories"
 msgstr ""
 
 #: src/MainWindow.vala:44
@@ -268,6 +268,7 @@ msgid "For more info, see %s."
 msgstr ""
 
 #: src/Views/EditView.vala:580
+#, c-format
 msgid "the file naming specification by freedesktop.org"
 msgstr ""
 
@@ -281,6 +282,10 @@ msgstr ""
 
 #: src/Views/FilesView.vala:30
 msgid "Dark"
+msgstr ""
+
+#: src/Views/FilesView.vala:31
+msgid "System"
 msgstr ""
 
 #: src/Views/FilesView.vala:34
